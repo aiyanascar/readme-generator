@@ -1,8 +1,8 @@
 
-# monkey_paw
+# my project
 
 ## Description
-monkeys have two paws
+this project is a simple tool to demonstrate how to generate a README file
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,19 +13,19 @@ monkeys have two paws
 - [Questions](#questions)
 
 ## Installation
-install node packages
+npm install
 
 ## Usage
-check monkeys paws
+run 'node index.js' to start the tool
 
 ## License
-This project is licensed under the GPLv3 license.
+This project is licensed under the MIT license.
 
 ## Contributing
-rights
+open an issue or submit a poll request
 
 ## Tests
-blah blah blah
+run 'npm test' to execute tests.
 
 ## Questions
 For any questions, please contact me at [aiyanascar@gmail.com](mailto:aiyanascar@gmail.com). You can also find more of my work at [aiyanascar](https://github.com/aiyanascar).
