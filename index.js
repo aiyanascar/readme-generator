@@ -14,9 +14,6 @@ const questions = [
     { type: 'input', name: 'email', message: 'Enter your email address:' }
 ];
 
-console.log("Questions array:");
-console.log(questions);
-
 inquirer.prompt(questions).then((answers) => {
     console.log("Prompting completed. Received answers:");
     console.log(answers);
@@ -30,8 +27,6 @@ inquirer.prompt(questions).then((answers) => {
 }).catch(error => {
     console.error("An error occurred during the prompts:", error);
 });
-
-console.log("This message should appear after setting up the prompt.");
 
 function generateReadme(answers) {
     return `
@@ -67,3 +62,5 @@ ${answers.tests}
 For any questions, please contact me at [${answers.email}](mailto:${answers.email}). You can also find more of my work at [${answers.github}](https://github.com/${answers.github}).
     `;
 }
+
+module.exports = { generateReadme };

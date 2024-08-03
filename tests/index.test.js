@@ -1,4 +1,3 @@
-const fs = require('fs');
 const { generateReadme } = require('../index');
 
 describe('generateReadme', () => {
